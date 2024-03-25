@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: consumer
+
+APP_CONFIG_KAFKA_SERVER: localhost:29092
+APP_CONFIG_KAFKA_GROUP: generate.report.worker
+APP_CONFIG_KAFKA_TOPIC: generate.report

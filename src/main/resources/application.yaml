@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: consumer
+
+app:
+  config:
+    kafka:
+      server: localhost:29092
+      group: generate.report.worker
+      topic: generate.report
