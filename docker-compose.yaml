@@ -66,3 +66,9 @@ services:
       APP_CONFIG_KAFKA_SERVER: redpanda-0:9092
       APP_CONFIG_KAFKA_GROUP: generate.report.worker
       APP_CONFIG_KAFKA_TOPIC: generate.report
+  consume-2:
+    image: consume:1.1
+    environment:
+      APP_CONFIG_KAFKA_SERVER: redpanda-0:9092
+      APP_CONFIG_KAFKA_GROUP: generate.report.worker
+      APP_CONFIG_KAFKA_TOPIC: generate.report

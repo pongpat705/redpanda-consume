@@ -5,6 +5,6 @@ spring:
 app:
   config:
     kafka:
-      server: localhost:29092
+      server: uat.com:29092
       group: generate.report.worker
       topic: generate.report
